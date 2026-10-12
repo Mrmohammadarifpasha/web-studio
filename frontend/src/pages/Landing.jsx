@@ -144,7 +144,7 @@ export default function Landing() {
       {/* SPLASH */}
       <div ref={splashRef} className="splash">
         <img ref={logoRef} src="image.png" className="logo" alt="Logo" />
-        <h1 ref={titleRef} className="title">MOHAMMMAD Software</h1>
+        <h1 ref={titleRef} className="title">Quizmark </h1>
         <p ref={textRef} className="subtitle"></p>
       </div>
 
@@ -153,7 +153,7 @@ export default function Landing() {
         <header className="header">
           <div className="logo-container">
             <img src="image.png" className="mini-logo" alt="logo" />
-            <span className="brand">MOHAMMAD Software </span>
+            <span className="brand">Quizmark </span>
           </div>
         </header>
 
@@ -230,7 +230,7 @@ export default function Landing() {
         )}
 
         <footer className="footer">
-          © 2026 Arif MOHAMMAD Software . All Rights Reserved.
+          © 2026 Arif MOHAMMAD. All Rights Reserved.
         </footer>
       </main>
     </div>
