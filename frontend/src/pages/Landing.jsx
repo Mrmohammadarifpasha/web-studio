@@ -52,7 +52,7 @@ export default function Landing() {
       .to(logoRef.current, { scale: 1, duration: 0.3 })
       .fromTo(titleRef.current, { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: 1 }, "-=0.5")
       .to(textRef.current, {
-        text: "Welcome to MOHAMMAD Software Service",
+        text: "Ready to RIDE THE Advancer Service",
         duration: 2.5,
       })
       .to(splashRef.current, {
@@ -64,7 +64,7 @@ export default function Landing() {
       })
       .to(mainRef.current, { opacity: 1, duration: 1 }, "-=1")
       .to(headlineRef.current, {
-        text: " Welcome to MOHAMMAD Software ",
+        text: " Welcome to QuizMart ",
         duration: 2.5,
       })
       .to(subheadlineRef.current, {
@@ -230,7 +230,7 @@ export default function Landing() {
         )}
 
         <footer className="footer">
-          © 2025 MOHAMMAD Software . All Rights Reserved.
+          © 2026 Arif MOHAMMAD Software . All Rights Reserved.
         </footer>
       </main>
     </div>
